@@ -1,6 +1,6 @@
 echo "setting envs for FINN project"
-export REPO_ROOT="/scratch/azizb/brainwave/workshop/finn_core"
-export ROOT="/scratch/azizb/brainwave/workshop/"
+export ROOT="/scratch/azizb/brainwave/finn_workshop/"
+export REPO_ROOT="$ROOT/finn-core"
 export FINN_XILINX_PATH="/proj/xbuilds/SWIP/2024.1_0522_2023/installs/lin64"
 export FINN_XILINX_VERSION="2024.1"
 export NUM_DEFAULT_WORKERS="4"
