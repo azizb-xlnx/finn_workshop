@@ -1,0 +1,16 @@
+echo "setting envs for FINN project"
+export REPO_ROOT="/scratch/azizb/brainwave/workshop/finn_core"
+export ROOT="/scratch/azizb/brainwave/workshop/"
+export FINN_XILINX_PATH="/proj/xbuilds/SWIP/2024.1_0522_2023/installs/lin64"
+export FINN_XILINX_VERSION="2024.1"
+export NUM_DEFAULT_WORKERS="4"
+export FINN_HOST_BUILD_DIR="$REPO_ROOT/scripts_finn/finn/tmp_build"
+export FINN_DOCKER_EXTRA=" -v /proj/xbuilds/licenses:/proj/xbuilds/licenses -e 
+XILINXD_LICENSE_FILE=/proj/xbuilds/licenses -v $ROOT/:$ROOT/"
+
+echo "REPO_ROOT=$REPO_ROOT"
+echo "FINN_XILINX_PATH=$FINN_XILINX_PATH"
+echo "FINN_XILINX_VERSION=$FINN_XILINX_VERSION"
+echo "NUM_DEFAULT_WORKERS=$NUM_DEFAULT_WORKERS"
+echo "FINN_HOST_BUILD_DIR=$FINN_HOST_BUILD_DIR"
+echo "FINN_DOCKER_EXTRA=$FINN_DOCKER_EXTRA"
