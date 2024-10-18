@@ -1,3 +1,6 @@
 [submodule "finn_core"]
 	path = finn_core
 	url = https://github.com/azizb-xlnx/finn.git
+[submodule "finn-core"]
+	path = finn-core
+	url = https://github.com/azizb-xlnx/finn.git
